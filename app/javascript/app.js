@@ -51,6 +51,7 @@ let num = 0; //変数numを宣言し、初期値を0に設定
 // 「i++」は「i = i + 1」と同じ
 for (i = 1; i < 11; i++) {
   num = num + i; //変数numにnum + iを代入
+  // console.log(i);
 }
 
 alert('1から10まで足し算した結果は' + num + 'です');
