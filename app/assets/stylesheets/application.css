@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+@import "skippr";
+
+.iamge1 {
+  background-image: url(image1.jpg);
+}
+
+.iamge2 {
+  background-image: url(image2.jpg);
+}
+
+.iamge3 {
+  background-image: url(image3.jpg);
+}
+
+.iamge4 {
+  background-image: url(image4.jpg);
+}
+
+.iamge5 {
+  background-image: url(image5.jpg);
+}
+
+#container {
+  height: 500px;
+}
